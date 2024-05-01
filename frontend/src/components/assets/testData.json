@@ -1,0 +1,10 @@
+{
+    "date": "2018-01-03T16:50:46.890000",
+    "id": "LANDSAT/LC08/C01/T1_SR/LC08_025039_20180103",
+    "resource": {
+        "dataset": "LANDSAT/LC08/C01/T1_SR",
+        "planet": "earth"
+    },
+    "service_version": "v5000",
+    "url": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/thumbnails/78ef0163adc2d4981e96b6a47dbccd48-004f10c1b0c0551b99a266802e0d58c3:getPixels"
+}
