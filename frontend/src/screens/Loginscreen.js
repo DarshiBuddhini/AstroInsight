@@ -16,7 +16,7 @@ const Loginscreen = () => {
     dispatch({ type: 'USER_LOGIN_REQUEST' });
 
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', user);
+      const response = await axios.post('https://astroinsight.onrender.com/api/auth/login', user);
       dispatch({ type: 'USER_LOGIN_SUCCESS', payload: response.data });
       localStorage.setItem('currentUser', JSON.stringify(response.data));
       window.location.href = '/';

@@ -22,7 +22,7 @@ const Registerscreen = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "https://astroinsight.onrender.com/api/auth/register",
         {
           username,
           password,
