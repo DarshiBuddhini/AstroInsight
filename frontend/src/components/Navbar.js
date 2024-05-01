@@ -64,7 +64,7 @@ export default function Navbar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  <h6>Welcome {currentUser.email}</h6>{" "}
+                  <h6>Welcome {currentUser.username}</h6>{" "}
                 </a>
 
                 <ul
@@ -72,7 +72,7 @@ export default function Navbar() {
                   style={{ minWidth: "0rem" }}
                   aria-labelledby="dropdownMenuButton1"
                 >
-                  s
+                
                   <li>
                     <a
                       className="dropdown-item"
